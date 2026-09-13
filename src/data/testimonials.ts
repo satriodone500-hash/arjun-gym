@@ -1,0 +1,58 @@
+import { Testimonial } from '../types';
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 'test-1',
+    name: 'Ahmad Fauzi',
+    role: 'Software Engineer',
+    content: 'Bergabung di ARJUN GYM adalah keputusan terbaik yang pernah saya buat. Dalam 6 bulan, berat badan saya turun 15kg dan energi saya meningkat drastis. Trainer di sini sangat profesional dan supportive.',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop',
+    rating: 5,
+    memberSince: '2024',
+  },
+  {
+    id: 'test-2',
+    name: 'Putri Maharani',
+    role: 'Marketing Manager',
+    content: 'Fasilitas ARJUN GYM benar-benar premium. Peralatan lengkap, bersih, dan selalu terawat. Class-nya juga seru banget, terutama HIIT sama yoga. Highly recommended!',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop',
+    rating: 5,
+    memberSince: '2023',
+  },
+  {
+    id: 'test-3',
+    name: 'Budi Santoso',
+    role: 'Entrepreneur',
+    content: 'Sebagai pebisnis yang sibuk, saya butuh gym yang fleksibel dan efisien. ARJUN GYM memberikan semua itu. Personal trainer saya menyusun program yang sesuai jadwal padat saya.',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop',
+    rating: 5,
+    memberSince: '2024',
+  },
+  {
+    id: 'test-4',
+    name: 'Rina Wulandari',
+    role: 'Dokter',
+    content: 'Sebagai dokter, saya paham pentingnya olahraga. ARJUN GYM memiliki pendekatan yang scientific dan trainer yang memahami anatomi tubuh. Program mereka aman dan efektif.',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop',
+    rating: 5,
+    memberSince: '2023',
+  },
+  {
+    id: 'test-5',
+    name: 'Dimas Prasetyo',
+    role: 'Mahasiswa',
+    content: 'Paket Basic-nya sangat terjangkau untuk mahasiswa seperti saya. Gym-nya lengkap, bersih, dan staffnya ramah. Sudah 1 tahun jadi member dan nggak pernah kecewa.',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop',
+    rating: 4,
+    memberSince: '2024',
+  },
+  {
+    id: 'test-6',
+    name: 'Nadia Safitri',
+    role: 'Content Creator',
+    content: 'Vibes-nya ARJUN GYM itu beda. Interior-nya aesthetic, lighting bagus, dan suasananya bikin semangat workout. Plus, community-nya supportive banget!',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop',
+    rating: 5,
+    memberSince: '2025',
+  },
+];
