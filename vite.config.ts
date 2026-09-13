@@ -4,6 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 import basicSsl from '@vitejs/plugin-basic-ssl'
 
 export default defineConfig({
+  base: '/arjun-gym/',
+
   plugins: [
     react(),
     tailwindcss(),
